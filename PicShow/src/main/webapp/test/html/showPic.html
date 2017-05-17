@@ -2,14 +2,61 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/showPic.js"></script>
+	<!-- 引入CSS样式单文件 -->
+	<link href="../css/showPic.css" type="text/css" rel="stylesheet"/>
 	<title>显示图片</title>
 </head>
 <body>
-	<div id="picshow">
-		<img src="../../res/horizontal/754675N91.jpg" height="60%">
+	<!-- 顶部图片 -->
+	<div id="headerPic">
+		<img src="../../res/horizontal/754675N91.jpg" width="100%">
 	</div>
-	<div>
-		<input type="button" value="按钮" />
+
+	<!-- 主框架 -->
+	<div id="mainDiv">
+		<table class="mainTable">
+			<tr>
+				<td class="tdSq">
+					<div class="squarePic">
+						<img src="../../res/square/105026N57877299D.jpg">
+					</div>
+				</td>
+				<td  class="tdSq">
+					<div class="squarePic">
+						<img src="../../res/square/11932846N58825498D.jpg">
+					</div>
+				</td>
+				<td class="tdSq">
+					<div class="squarePic">
+						<img src="../../res/square/1836747N57866038D.jpg">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="squarePic">
+						<img src="../../res/gif/24.gif">
+					</div>
+				</td>
+					
+				<td>
+					<div class="squarePic">
+						<img src="../../res/square/339939N56882771D.jpg">
+					</div>
+				</td>
+				<td>
+					<div class="squarePic">
+						<img src="../../res/gif/blackbullet.gif">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<!-- 单张大图显示 -->
+	<div id="originalPic">
+		
 	</div>
 </body>
 </html>
